@@ -8,24 +8,20 @@ header{
     background-color: aquamarine;
     padding: 1rem;
 }
-
 .conteiner{
     width: 70%;
     max-width: 1200px;
     margin: 0 auto;
     background-color: aqua;
 }
-
 .row{
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
 }
-
 [class^="col"]{
 padding: 0.1rem;
 }
-
 .col-1{
 
     width: calc((100% / 4) *1);
@@ -38,10 +34,23 @@ border: 2px solid;
 text-align: center; 
 
 }
-
 .col-3{
     width: calc((100% / 4) *1);
 border: 2px solid;    
 text-align: end;
 }
 /* fine header */
+
+/* inizio main */
+/*  inizio blue block */
+.blue_block{
+    background-color: blue;
+ padding: 30px ;
+}
+.pink_block{
+    background-color: pink;
+    width: 900px;
+    height: 400px;
+    margin: 0 auto;
+}
+/*  fine blue block */
