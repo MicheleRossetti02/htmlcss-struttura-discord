@@ -70,7 +70,7 @@ h1{
     padding-top: 65px;
     padding-bottom: 30px;
 }
-span{
+span .center{
     font-size: large;
     display: flex;
 justify-content: center;
@@ -110,18 +110,31 @@ color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 300px;
 }
-.banner{
-    width: calc((850px /5)*3);
-    background-color:#1E90FF;
+
+.banner_1{
+    width: calc((100% /5)*3);
+background-image: url(/assets/item1.svg);
+background-size: cover;
+
+}
+
+.information_1{
+display: flex;
+justify-content: left;
+font-size: 2.4rem;
 }
 .description{
-    width: calc((850px /5)*2);
-    background-color:#FFC0CB;
+    width: calc((100% /5)*2);
  
 
 }
+.info{
+    margin-top: 25px;
+    font-size: medium;
+    
+}
+
 section.grey{
     background-color: lightgrey;
     padding: 2rem 0;
@@ -132,9 +145,34 @@ section.grey{
     width: 70%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem 0;
 
 }
+
+.information_2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 500px;
+}
+.banner_2{
+    background-image: url(/assets/item2.svg);
+    width: calc((100% /5)*3);
+    background-size: cover;
+    
+    
+}
+
+.description_2{
+    width: calc((100% /5)*2);
+   
+    margin-bottom: 50px;
+    font-size: 2.4rem;
+    margin-top: 70px;
+}
+.title{
+    margin-right: 25px;
+}
+
 .green_row{
     width: 70%;
     max-width: 1200px;
