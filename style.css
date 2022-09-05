@@ -3,9 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* inizio header */
 header{
     background-color: aquamarine;
+    padding: 1rem;
 }
 
 .conteiner{
@@ -13,7 +14,6 @@ header{
     max-width: 1200px;
     margin: 0 auto;
     background-color: aqua;
-    border-top: 0.3rem;
 }
 
 .row{
@@ -44,3 +44,4 @@ text-align: center;
 border: 2px solid;    
 text-align: end;
 }
+/* fine header */
