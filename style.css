@@ -5,14 +5,14 @@
 }
 /* inizio header */
 header{
-    background-color: aquamarine;
+    background-color: #ADD8E6;
     padding: 1rem;
 }
 .conteiner{
     width: 70%;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: aqua;
+    background-color: #DAA520;
 }
 .row{
 display: flex;
@@ -44,13 +44,13 @@ text-align: end;
 /* inizio main */
 /*  inizio blue block */
 .blue_block{
-    background-color: blue;
+    background-color: #00008B;
  padding: 30px ;
 }
 .purple_block{
-    background-color: purple;
-    width: 600px;
-    height: 300px;
+    background-color: #EE82EE;
+    width: 650px;
+    height: 325px;
     margin: 0 auto;
 }
 /*  fine blue block */
@@ -71,14 +71,14 @@ text-align: end;
 }
 .banner{
     width: calc((850px /5)*3);
-    background-color:cyan;
+    background-color:#1E90FF;
 
 
 
 }
 .description{
     width: calc((850px /5)*2);
-    background-color:pink;
+    background-color:#FFC0CB;
  
 
 }
@@ -100,7 +100,7 @@ section.grey{
     max-width: 1200px;
     margin: 0 auto;
     height: 500px;
-    background-color: green;
+    background-color: #228B22;
 }
 .black{
     background-color: black;
@@ -108,7 +108,7 @@ section.grey{
 
 }
 .black_conteiner{
-    height: 300px;
+    height: 400px;
     width: 70%;
     max-width: 1200px;
     margin: 0 auto;
@@ -122,25 +122,50 @@ padding-bottom: 1.5rem;
 .col-4{
     background-color: #F08080;
     width: calc((100% / 6) *2);
+    border: 1px solid white;
 
 }
 .col-5{
     background-color: #20B2AA;
     width: calc((100% / 6) *1);
+    border: 1px solid white;
 
 }
 .col-6{
     background-color: #20B2AA;
     width: calc((100% / 6) *1);
+    border: 1px solid white;
 
 }
 .col-7{
     background-color: #20B2AA;
     width: calc((100% / 6) *1);
+    border: 1px solid white;
 
 }
 .col-8{
     background-color: #20B2AA;
     width: calc((100% / 6) *1);
+    border: 1px solid white;
 
+}
+footer{
+    background-color: black;
+}
+.final_row{
+
+padding-top: 1rem;
+
+}
+.final_information{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+background-color: #7FFFD4;
+padding: 10px 0;
+}
+.footer_information{
+    background-color: #FFB6C1;
 }
