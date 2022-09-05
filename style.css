@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: aquamarine;
+}
+
+.conteiner{
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: aqua;
+    border-top: 0.3rem;
+}
+
+.row{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+[class^="col"]{
+padding: 0.1rem;
+}
+
+.col-1{
+
+    width: calc((100% / 4) *1);
+    border: 2px solid;    
+
+}
+.col-2{
+    width: calc((100% / 4) *2);
+border: 2px solid;   
+text-align: center; 
+
+}
+
+.col-3{
+    width: calc((100% / 4) *1);
+border: 2px solid;    
+text-align: end;
+}
