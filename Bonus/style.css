@@ -24,7 +24,7 @@ background-color: white;
 border-color: white;
 border-radius: 10px 10px 10px 10px;}
 .conteiner{
-    width: 70%;
+    width: 80%;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -100,11 +100,12 @@ color: white;
 /* fine header */
 
 .conteiner_row{
-    width: 70%;
+    width: 80%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem 0;
     background-color: white;
+    height: 500px;
 }
 .information{
     display: flex;
@@ -116,6 +117,7 @@ color: white;
     width: calc((100% /5)*3);
 background-image: url(/assets/item1.svg);
 background-size: cover;
+height: 400px;
 
 }
 
@@ -123,10 +125,11 @@ background-size: cover;
 display: flex;
 justify-content: left;
 font-size: 2.4rem;
+
 }
 .description{
     width: calc((100% /5)*2);
- 
+    margin-top: 50px;
 
 }
 .info{
@@ -142,7 +145,7 @@ section.grey{
 }
 
 .grey_conteiner_row{
-    width: 70%;
+    width: 80%;
     max-width: 1200px;
     margin: 0 auto;
 
@@ -153,6 +156,7 @@ section.grey{
     flex-wrap: wrap;
     justify-content: center;
     height: 500px;
+ 
 }
 .banner_2{
     background-image: url(/assets/item2.svg);
@@ -172,7 +176,19 @@ section.grey{
 .title{
     margin-right: 25px;
 }
+.banner_3{
+    width: calc((100% /5)*3);
+    background-image: url(/assets/item3.svg);
+    background-size: cover;
+    height: 400px;
 
+
+}
+.description_3{
+    width: calc((100% /5)*2);
+    margin-top: 50px;
+
+}
 .green_row{
     width: 70%;
     max-width: 1200px;
