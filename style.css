@@ -47,10 +47,100 @@ text-align: end;
     background-color: blue;
  padding: 30px ;
 }
-.pink_block{
-    background-color: pink;
-    width: 900px;
-    height: 400px;
+.purple_block{
+    background-color: purple;
+    width: 600px;
+    height: 300px;
     margin: 0 auto;
 }
 /*  fine blue block */
+
+
+.conteiner_row{
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+    background-color: white;
+}
+.information{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 300px;
+}
+.banner{
+    width: calc((850px /5)*3);
+    background-color:cyan;
+
+
+
+}
+.description{
+    width: calc((850px /5)*2);
+    background-color:pink;
+ 
+
+}
+section.grey{
+    background-color: lightgrey;
+    padding: 2rem 0;
+
+}
+
+.grey_conteiner_row{
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+
+}
+.green_row{
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 500px;
+    background-color: green;
+}
+.black{
+    background-color: black;
+    border-bottom: 2px solid white;
+
+}
+.black_conteiner{
+    height: 300px;
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding-top: 0.5rem;
+padding-bottom: 1.5rem;
+ 
+}
+.col-4{
+    background-color: #F08080;
+    width: calc((100% / 6) *2);
+
+}
+.col-5{
+    background-color: #20B2AA;
+    width: calc((100% / 6) *1);
+
+}
+.col-6{
+    background-color: #20B2AA;
+    width: calc((100% / 6) *1);
+
+}
+.col-7{
+    background-color: #20B2AA;
+    width: calc((100% / 6) *1);
+
+}
+.col-8{
+    background-color: #20B2AA;
+    width: calc((100% / 6) *1);
+
+}
