@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-/* inizio header */
+    font-family: 'Padauk', sans-serif;}
+
+/* #region head*/
 header{
     background-color: #255EE9;
     /* height: 1200px; */
@@ -63,6 +64,7 @@ height: 430px;
     vertical-align: middle;
     width: 650px;
     margin: 0 auto;
+    text-align: center;
 }
 h1{
     text-align: center;
@@ -71,9 +73,9 @@ h1{
     padding-bottom: 30px;
 }
 span .center{
-    font-size: large;
+    /* font-size: large;
     display: flex;
-justify-content: center;
+justify-content: center; */
 }
 .button{
     padding-top: 25px ;
@@ -98,7 +100,10 @@ color: white;
     text-align: center;
 }
 /*  fine blue block */
-/* fine header */
+/* #endregion head */
+
+/* #region main */
+
 
 .conteiner_row{
     width: 80%;
@@ -138,10 +143,19 @@ font-size: 2.4rem;
     font-size: medium;
     
 }
-
+.wave-1hkxOo{
+    color: #F6F6F6;
+    background-color: white;
+}
+/* .wave{
+    background-image: url(/assets/wave.svg);
+    background-color: white;
+    color: #F6F6F6 ;
+    height: 50px;
+} */
 section.grey{
-    background-color: lightgrey;
-    padding: 2rem 0;
+    background-color: #F6F6F6;
+
 
 }
 
@@ -151,7 +165,14 @@ section.grey{
     margin: 0 auto;
 
 }
-
+.wave_reverse{
+    display: revert;
+}
+.wave_1{
+    color: #F6F6F6;
+    background-color: white;
+    transform: rotate(180deg);
+}
 .information_2{
     display: flex;
     flex-wrap: wrap;
@@ -163,6 +184,7 @@ section.grey{
     background-image: url(/assets/item2.svg);
     width: calc((100% /5)*3);
     background-size: cover;
+    margin-bottom: 50px;
     
     
 }
@@ -181,7 +203,7 @@ section.grey{
     width: calc((100% /5)*3);
     background-image: url(/assets/item3.svg);
     background-size: cover;
-    height: 400px;
+    height: 450px;
 
 
 }
@@ -191,6 +213,7 @@ section.grey{
 
 }
 .green_row{
+   padding-top: 50px;
     width: 70%;
     max-width: 1200px;
     margin: 0 auto;
@@ -219,59 +242,85 @@ margin-bottom: 1.5rem;
     color: white;
 }
 .black{
-    background-color: black;
-    border-bottom: 2px solid white;
+    background-color: #23272A;
 
 }
 .black_conteiner{
-    height: 400px;
+    /* height: 400px; */
     width: 70%;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
 flex-wrap: wrap;
 justify-content: center;
-padding-top: 0.5rem;
+padding-top: 60px;
 padding-bottom: 1.5rem;
+color: white;
  
 }
-.col-4{
-    background-color: #F08080;
-    width: calc((100% / 6) *2);
-    border: 1px solid white;
+.black_conteiner{
+    font-size: 16px;
+}
+.botton_title{
+    color: #7289DA;
+    font-size: 2.3rem;
+}
+
+div.flag{
+    margin-top: 24px;
+    color: white;
+}
+.loghi{
+    margin-top: 24px;
+}
+.socialIcon{
+    margin-left: 24px;
 
 }
+.col-4{
+    font-size: 1rem;
+    width: calc((100% / 6) *2);
+
+}
+h6{
+    font-size: 1rem;
+    color:#7289DA ;
+    margin-bottom: 1rem;
+}
 .col-5{
-    background-color: #20B2AA;
     width: calc((100% / 6) *1);
-    border: 1px solid white;
+display: flex;
+flex-direction: column;
+
 
 }
 .col-6{
-    background-color: #20B2AA;
     width: calc((100% / 6) *1);
-    border: 1px solid white;
-
+    display: flex;
+    flex-direction: column;
 }
 .col-7{
-    background-color: #20B2AA;
     width: calc((100% / 6) *1);
-    border: 1px solid white;
-
+    display: flex;
+    flex-direction: column;
 }
 .col-8{
-    background-color: #20B2AA;
     width: calc((100% / 6) *1);
-    border: 1px solid white;
-
+    display: flex;
+    flex-direction: column;
 }
+/* #endregion main */
+
+/* #region footer */
 footer{
-    background-color: black;
+    background-color: #23272A;
 }
+
 .final_row{
-
+width: 70%;
 padding-top: 1rem;
-
+margin: 0 auto;
+border-top: 2px solid #7289DA;
 }
 .final_information{
     display: flex;
@@ -279,9 +328,11 @@ padding-top: 1rem;
     width: 70%;
     max-width: 1200px;
     margin: 0 auto;
-background-color: #7FFFD4;
-padding: 10px 0;
+    padding: 10px 0;
 }
-.footer_information{
-    background-color: #FFB6C1;
+
+.registrati{
+    background-color: #7289DA;
+    color: white;
 }
+/* #endregion footer */
