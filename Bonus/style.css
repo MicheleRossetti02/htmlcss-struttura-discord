@@ -76,7 +76,8 @@ span .center{
 justify-content: center;
 }
 .button{
-    padding: 25px 25px;
+    padding-top: 25px ;
+    padding-bottom: 50px;
     text-align: center;
 }
 .download{
@@ -193,8 +194,29 @@ section.grey{
     width: 70%;
     max-width: 1200px;
     margin: 0 auto;
-    height: 500px;
-    background-color: #228B22;
+    /* height: 500px;
+    background-color: #228B22; */
+    text-align: center;
+}
+#green_block{
+font-size: 2.5rem;
+margin-bottom: 1.5rem;
+}
+
+#background{
+    background-image: url(/assets/stars.svg);
+    text-align: center;
+    /* background-size: cover; */
+    width: 50%;
+    margin: 0 auto;
+}
+.blue_download{
+    height: 50px;
+    width: 200px;
+    margin: 0 20px;
+    font-size: 1rem;
+    background-color: #7289DA;
+    color: white;
 }
 .black{
     background-color: black;
