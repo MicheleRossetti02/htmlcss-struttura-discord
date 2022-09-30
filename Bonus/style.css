@@ -54,7 +54,7 @@ text-align: end;
 
 /*  inizio blue block */
 .sfondo{
-background-image: url(/assets/jumbo.png); 
+background-image: url(./assets/jumbo.png); 
 padding: 30px ;
 background-size: cover;
 height: 430px;
@@ -121,7 +121,7 @@ color: white;
 
 .banner_1{
     width: calc((100% /5)*3);
-background-image: url(/assets/item1.svg);
+background-image: url(./assets/item1.svg);
 background-size: cover;
 height: 400px;
 
@@ -181,7 +181,7 @@ section.grey{
  
 }
 .banner_2{
-    background-image: url(/assets/item2.svg);
+    background-image: url(./assets/item2.svg);
     width: calc((100% /5)*3);
     background-size: cover;
     margin-bottom: 50px;
@@ -201,7 +201,7 @@ section.grey{
 }
 .banner_3{
     width: calc((100% /5)*3);
-    background-image: url(/assets/item3.svg);
+    background-image: url(./assets/item3.svg);
     background-size: cover;
     height: 450px;
 
@@ -227,7 +227,7 @@ margin-bottom: 1.5rem;
 }
 
 #background{
-    background-image: url(/assets/stars.svg);
+    background-image: url(./assets/stars.svg);
     text-align: center;
     /* background-size: cover; */
     width: 50%;
